@@ -1,2 +1,1 @@
-# SA-Website
-This is the Sturgeon Accounting Website
+Homepage for Sturgeon Accounting
