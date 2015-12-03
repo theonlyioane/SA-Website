@@ -1,0 +1,146 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+ {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+.img-responsive {
+max-height: 600px;
+}
+/*BASE*/
+html {
+overflow-x: hidden;
+}
+body {
+overflow-x: hidden;
+font-family: 'Roboto', sans-serif;
+}
+p {
+line-height: 1.6;
+}
+.wrapper {
+width: 1160px;
+}
+/*NAVIGATION*/
+.navbar-default {
+border: none;
+width: 100%;
+z-index: 999;
+border-radius: 0px;
+background-color: white;
+border-bottom: 1px solid #e7e7e8;
+}
+.navbar-brand {
+padding: 7px 20px;
+}
+.navbar-collapse {
+float: right;
+}
+/*Text Styles*/
+body h1 {
+	color: #89898c;
+	padding-top: 80px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+body h4 {
+	font-size: 24px;
+	padding-top:40px;
+	color: #89898c;
+}
+p {
+	padding-bottom: 40px;
+}
+/*Hero*/
+.hero{
+	text-align: center;
+	padding-bottom: 180px;
+	background-color: red;
+}
+.hero h1, .hero h4 {
+	color: white;
+}
+.hero button {
+	border-radius: 20px;
+	padding: 10px 20px 10px 20px;
+	background-color: #f0f0f0;
+	border:none;
+}
+.hero button:hover {
+	background-color: blue;
+	color: white;
+}
+/*Services*/
+.services {
+	float: left;
+}
+.sliderText {
+	padding: 40px;
+	height: 600px;
+	color: #b1b1b3;
+}
+.sliderText button {
+	border-radius: 20px;
+	padding: 10px 20px 10px 20px;
+	background-color: #f0f0f0;
+	border:none;
+}
+.sliderText button:hover {
+	background-color: blue;
+	color: white;
+}
+.sliderImg {
+	background-color: yellow;
+	height: 600px;
+}
+/*about*/
+.about {
+	float: left;
+}
+.aboutImg {
+	background-color: black;
+	height: 600px;
+}
+.aboutText {
+	padding: 40px;
+	height: 600px;
+	color: #b1b1b3;
+}
+/*contact*/
