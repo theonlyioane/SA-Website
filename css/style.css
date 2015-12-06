@@ -61,9 +61,6 @@ font-family: 'Roboto', sans-serif;
 p {
 line-height: 1.6;
 }
-.wrapper {
-width: 1160px;
-}
 /*NAVIGATION*/
 .navbar-default {
 border: none;
@@ -112,7 +109,8 @@ p {
 }
 .hero h4 {
 	font-weight: 300;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
+	line-height: 1.4;
 }
 .hero button {
 	border-radius: 20px;
@@ -129,11 +127,12 @@ p {
 .slider h1{
 	padding-top: 0px;
 }
+.slider h4 {
+	padding-bottom: 20px;
+}
 .sliderText {
 	padding: 40px;
 	color: #b1b1b3;
-}
-.sliderImg {
 }
 .sliderImg img {
 	background-size:100%;
@@ -211,9 +210,12 @@ p {
 .about {
 	float: left;
 }
-.aboutImg {
-	background-color: black;
-	height: 600px;
+.aboutProfile img{
+	background-size:100%;
+	display: block;
+    width: 100%;
+    max-width: 1200px; /* corresponds to max height of 450px */
+    margin: 0 auto;
 }
 .aboutText {
 	padding: 40px;
@@ -221,6 +223,28 @@ p {
 	color: #b1b1b3;
 }
 /*contact*/
+.contact {
+	float: left;
+	background-color: red;
+	height: 600px;
+	width: 100%;
+}
+/*FORM*/
+.form-wrapper {
+background-color: white;
+border-radius: 4px;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+margin-top: 120px;
+height: 220px;
+margin-left: 40px;
+margin-right: 40px;
+}
+.form-bottom {
+padding: 20px;
+}
+.btn-default {
+border-color: #3ab2de;
+}
 
 
 /* MQ */
@@ -233,10 +257,9 @@ p {
 	.sliderImg {
 		display: none;
 	}
-	.aboutImg {
-	background-color: black;
-	height: 400px;
-}
+	.aboutProfile img{
+	display: none;
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -251,5 +274,8 @@ p {
 		padding: 40px;
 		height: 600px;
 		color: #b1b1b3;
+	}
+	.aboutProfile img{
+	display: block;
 	}
 }
