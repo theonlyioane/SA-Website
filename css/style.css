@@ -135,7 +135,7 @@ p {
 	padding-bottom: 20px;
 }
 .sliderText {
-	padding: 40px;
+	margin: 40px;
 	color: #b1b1b3;
 }
 .sliderImg img {
@@ -223,10 +223,25 @@ p {
 }
 .aboutText {
 	padding: 40px;
-	height: 600px;
+	height: 560px;
 	color: #b1b1b3;
 }
 /*contact*/
+.contactText {
+	padding: 40px;
+	height: 150px;
+	color: #b1b1b3;
+}
+.contactText button {
+	text-align: center;
+	border-radius: 20px;
+	font-size: 16px;
+	padding: 10px 20px 10px 20px;
+	background-color: #3ab2de;
+	color: white;
+	border:none;
+	margin-top: 20px;
+}
 .contact {
 	float: left;
 	background-color: red;
@@ -249,11 +264,22 @@ padding: 20px;
 .btn-default {
 border-color: #3ab2de;
 }
+.form-wrapper .btn {
+	text-align: center;
+	border-radius: 20px;
+	font-size: 16px;
+	padding: 10px 20px 10px 20px;
+	background-color: #3ab2de;
+	color: white;
+	border:none;
+	width: 100%;
+}
 
 
 /* MQ */
 @media only screen and (max-width: 1000px) {
 	.sliderText {
+		margin: 0px;
 		padding: 40px;
 		height: 400px;
 		color: #b1b1b3;
