@@ -74,7 +74,7 @@ border-bottom: 1px solid #e7e7e8;
 	margin-bottom: 0px !important;
 }
 .navbar-brand {
-padding: 7px 20px;
+padding: 5px 20px !important;;
 }
 .navbar-collapse {
 float: right;
@@ -226,6 +226,9 @@ p {
 	height: auto;
 	color: #b1b1b3;
 }
+.aboutText img {
+	zoom: 50%;
+}
 /*contact*/
 .contactText {
 	padding: 40px;
@@ -314,6 +317,9 @@ display: block;
 	}
 	.aboutProfile img{
 	display: none;
+	}
+	.aboutText img {
+	zoom: 100%;
 	}
 	.contact {
 		height: 640px;
