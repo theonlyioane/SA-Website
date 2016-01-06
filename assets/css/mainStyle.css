@@ -57,7 +57,6 @@ overflow-x: hidden;
 body {
 overflow-x: hidden;
 font-family: 'Roboto', sans-serif;
--webkit-font-smoothing: antialiased;
 }
 p {
 line-height: 1.6;
@@ -84,6 +83,7 @@ float: right;
 body h1 {
 	color: #89898c;
 	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 36px;
 }
 body h4 {
 	font-size: 24px;
@@ -250,7 +250,7 @@ p {
 .contact {
 	float: left;
 	background-color: red;
-	height: 480px;
+	height: auto;
 	width: 100%;
 }
 /*FORM*/
@@ -306,7 +306,7 @@ display: block;
 }
 
 /* MQ */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 990px) {
 	.sliderText {
 		margin: 0px;
 		padding: 40px;
@@ -320,7 +320,7 @@ display: block;
 	display: none;
 	}
 	.contact {
-		height: 640px;
+	height: 720px;
 	}
 }
 
@@ -335,8 +335,14 @@ display: block;
 	.aboutProfile img{
 	display: block;
 	}
+	.form-top {
+		margin-top: 80px;
+	}
 	.form-wrapper {
 	height: 360px;
+	}
+		.contact {
+	height: 820px;
 	}
 }
 
