@@ -40,7 +40,7 @@ jQuery(document).ready(function() {
 	            }
 	            if(json.emailMessage == '' && json.subjectMessage == '' && json.messageMessage == '') {
 	                $('.contact-form form').fadeOut('fast', function() {
-	                    $('.contact-form').append('<p>Thanks for contacting us! We will get back to you very soon.</p>');
+	                    $('.contact-form').append('<p>Thanks for contacting me! I will get back to you very soon.</p>');
 	                    // reload background
 	    				$.backstretch("resize");
 	                });

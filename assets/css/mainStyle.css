@@ -12,12 +12,12 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-margin: 0;
-padding: 0;
-border: 0;
-font-size: 100%;
-font: inherit;
-vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
@@ -27,57 +27,57 @@ vertical-align: baseline;
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-display: block;
+	display: block;
 }
- {
-line-height: 1;
+{
+	line-height: 1;
 }
 ol, ul {
-list-style: none;
+	list-style: none;
 }
 blockquote, q {
-quotes: none;
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-content: '';
-content: none;
+	content: '';
+	content: none;
 }
 table {
-border-collapse: collapse;
-border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 .img-responsive {
-max-height: 600px;
+	max-height: 600px;
 }
 /*BASE*/
 html {
-overflow-x: hidden;
+	overflow-x: hidden;
 }
 body {
-overflow-x: hidden;
-font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
 }
 p {
-line-height: 1.6;
+	line-height: 1.6;
 }
 /*NAVIGATION*/
 .navbar-default {
-border: none;
-width: 100%;
-z-index: 999;
-border-radius: 0px;
-background-color: white;
-border-bottom: 1px solid #e7e7e8;
+	border: none;
+	width: 100%;
+	z-index: 999;
+	border-radius: 0px;
+	background-color: white;
+	border-bottom: 1px solid #e7e7e8;
 }
 .navbar {
 	margin-bottom: 0px !important;
 }
 .navbar-brand {
-padding: 5px 20px !important;;
+	padding: 5px 20px !important;;
 }
 .navbar-collapse {
-float: right;
+	float: right;
 }
 /*Text Styles*/
 body h1 {
@@ -142,21 +142,21 @@ p {
 .sliderImg img {
 	background-size:100%;
 	display: block;
-    width: 100%;
-    max-width: 1200px; /* corresponds to max height of 450px */
-    margin: 0 auto;
+	width: 100%;
+	max-width: 1200px; /* corresponds to max height of 450px */
+	margin: 0 auto;
 }
 
 .carousel-control {
 	float: left;
-    width: 100%;
-    height: 80px;
-    font-weight: 100;
-    line-height: 30px;
-    text-align: left;
-    color: #ffffff;
-    background-image:none;
-    padding-bottom: 40px;
+	width: 100%;
+	height: 80px;
+	font-weight: 100;
+	line-height: 30px;
+	text-align: left;
+	color: #ffffff;
+	background-image:none;
+	padding-bottom: 40px;
 }
 .carousel-control.left, .carousel-control.right {
 	float: left;
@@ -167,11 +167,11 @@ p {
 	opacity: 1;
 	text-shadow:none;
 	background-image:none !important;
-   	filter:none !important;
+	filter:none !important;
 }
 
 .carousel-control.left{
-   margin-right: 10px;
+	margin-right: 10px;
 }
 /**/
 .fullSlider {
@@ -218,9 +218,9 @@ p {
 .aboutProfile img{
 	background-size:100%;
 	display: block;
-    width: 100%;
-    max-width: 1200px; /* corresponds to max height of 450px */
-    margin: 0 auto;
+	width: 100%;
+	max-width: 1200px; /* corresponds to max height of 450px */
+	margin: 0 auto;
 }
 .aboutText {
 	padding: 40px;
@@ -232,7 +232,7 @@ p {
 }
 /*contact*/
 .contactText {
-	padding: 40px;
+	padding-top: 40px;
 	height: 150px;
 	color: #b1b1b3;
 }
@@ -246,6 +246,9 @@ p {
 	color: white;
 	border:none;
 	margin-top: 20px;
+}
+.contactText button a {
+	color: white;
 }
 .contact {
 	float: left;
@@ -264,7 +267,7 @@ p {
 	margin-right: 40px;
 }
 .form-bottom {
-padding: 20px;
+	padding: 20px;
 }
 .btn-default {
 	border-color: #3ab2de;
@@ -284,25 +287,25 @@ padding: 20px;
 /*FOOTER*/
 
 #footer {
-border-top: 1px solid #e7e7e8;
-height: 120px;
-background-color: white;
-width: 100%;
-padding-top: 40px;
-float: left;
+	border-top: 1px solid #e7e7e8;
+	height: 120px;
+	background-color: white;
+	width: 100%;
+	padding-top: 40px;
+	float: left;
 }
 #footer p {
-text-align: center;
-font-size: 12px;
-color: #89898c;
-padding-left: 20px;
-padding-right: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #89898c;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 #footer a {
-text-decoration: underline;
-color: #3ab2de;
-text-align: center;
-display: block;
+	text-decoration: underline;
+	color: #3ab2de;
+	text-align: center;
+	display: block;
 }
 
 /* MQ */
@@ -317,14 +320,20 @@ display: block;
 		display: none;
 	}
 	.aboutProfile img{
-	display: none;
+		display: none;
 	}
 	.contact {
-	height: 720px;
+		height: 720px;
 	}
 }
 
 @media only screen and (max-width: 768px) {
+	.navbar-brand img{
+		margin-top: 5px;
+	}
+	.contactText {
+		padding-left: 20px;
+	}
 }
 @media only screen and (max-width: 640px) {
 	.sliderText {
@@ -333,22 +342,22 @@ display: block;
 		color: #b1b1b3;
 	}
 	.aboutProfile img{
-	display: block;
+		display: block;
 	}
 	.form-top {
 		margin-top: 80px;
 	}
 	.form-wrapper {
-	height: 360px;
+		height: 360px;
 	}
-		.contact {
-	height: 820px;
+	.contact {
+		height: 820px;
 	}
 }
 
 @media only screen and (max-width: 400px) {
 	.form-wrapper {
-	height: auto;
-	margin-top: 120px;
+		height: auto;
+		margin-top: 120px;
 	}
 }
